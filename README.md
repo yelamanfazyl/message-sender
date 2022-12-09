@@ -22,6 +22,4 @@
 
 Еламан Фазыл - <a href = "https://github.com/yelamanfazyl">GitHub</a> <a href="https://www.linkedin.com/in/yelamanfazyl/">Linkedin</a> <a href="https://t.me/elfazyl">Telegram</a>
 
-Роман Сидаш - <a href = "https://github.com/rsidash">GitHub</a> <a href="https://www.linkedin.com/in/roman-sidash-3b29a91a3/">Linkedin</a> <a href="https://t.me/rsidash">Telegram</a>
-
 [Announcements Bot]: <http://t.me/announcements_kolesa_bot>
