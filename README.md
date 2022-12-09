@@ -1,25 +1,25 @@
 # Message Sender
 
-Ссылка на чат-бота: [Announcements Bot]
+Link to Bot: [Announcements Bot]
 
-Как все запустить?
-1. Создать .toml файл и положить API ключ бота
-2. Введите в терминале ``` go get ``` чтобы установить все зависимости
-2. Введите в терминале ``` go run main.go --config="путь к .toml файлу" ``` чтобы запустить сервер и бота
+How to start?
+1. Create .toml file and put API key
+2. Run ```go get``` to install all dependencies
+2. Run ``` go run main.go --config="path to .toml file" ``` to start server and bot
 
-Как все работает?
+How it works?
 
-Сервер:
-1. По роуту ``` /health ``` получите ответ json ```{"status" : "ok"}```, если сервер правильно запущен
-2. По роуту ``` /message ``` при отправке POST запроса с json ```{"message : "Сообщение"}``` сообщение отправиться всем пользователям зарегистрованным у бота
+Server:
+1. Request on route ``` /health ``` receive json ```{"status" : "ok"}```, if everything works
+2. Post request on ``` /message ``` with json ```{"message : "Message"}```, message would be sent to all users of bot
 
-Бот:
-1. По команде ```/start``` и ```/hello``` Бот отвечает "Привет, имя" и сохраняет информацию о пользователе в базе
-2. По команде ```/info``` пользователь получает информацию о том, сколько сообщений он получил и дату регистрацию у бота
-2. По команде ```/delete``` бот удаляет информацию о пользователе и пользователь перестает получать сообщения от бота
+Bot:
+1. Command ```/start``` and ```/hello```: Bot responds "Привет, name" and saves user in the database
+2. Command ```/info```: user receives an information about, how many messages he got and when he subscribed to the bot
+2. Command ```/delete```: bot deletes user's information and users stops receiving messages
 
-Контакты:
+Contacts:
 
-Еламан Фазыл - <a href = "https://github.com/yelamanfazyl">GitHub</a> <a href="https://www.linkedin.com/in/yelamanfazyl/">Linkedin</a> <a href="https://t.me/elfazyl">Telegram</a>
+Yelaman Fazyl - <a href = "https://github.com/yelamanfazyl">GitHub</a> <a href="https://www.linkedin.com/in/yelamanfazyl/">Linkedin</a> <a href="https://t.me/elfazyl">Telegram</a>
 
 [Announcements Bot]: <http://t.me/announcements_kolesa_bot>
