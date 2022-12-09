@@ -1,4 +1,4 @@
-# Kolesa Upgrade Bot
+# Message Sender
 
 Ссылка на чат-бота: [Announcements Bot]
 
