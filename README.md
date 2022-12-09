@@ -1,9 +1,5 @@
 # Kolesa Upgrade Bot
 
-<img src="https://i.ibb.co/gJzCG73/upgrade-logo.jpg" alt="Upgrade Logo" width="200"/>
-
-Репозиторий чат-бота для финального проекта Kolesa Upgrade.
-
 Ссылка на чат-бота: [Announcements Bot]
 
 Как все запустить?
